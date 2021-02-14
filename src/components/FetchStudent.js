@@ -23,12 +23,12 @@ async componentDidMount(){
 			}
 			var avg=sum/parseInt(data.students[1].grades.length);
 			
-			text+="<img src="+data.students[i].pic+"></img><br>"+
-				"<b>"+data.students[i].firstName+" "+data.students[i].lastName+"</b>"+
+			text+="<div class='pic'><img class='circleImg' src="+data.students[i].pic+"></img></div>"+
+				"<div class='txt'><b>"+data.students[i].firstName+" "+data.students[i].lastName+"</b>"+
 				"<p>Email: "+data.students[i].email+"</p>"+
 				"<p>Company: "+data.students[i].company+"</p>"+
 				"<p>Skill: "+data.students[i].skill+"</p>"+
-				"<p>Average: "+avg+"%</p>";
+				"<p>Average: "+avg+"%</p></div>";
 				
 		}
 
@@ -48,7 +48,6 @@ async componentDidMount(){
 		<div> loading...</div>
 		): (
 		<div>
-			
 		</div>
 		)}
 		</div>
