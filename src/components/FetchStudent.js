@@ -23,12 +23,12 @@ async componentDidMount(){
 			}
 			var avg=sum/parseInt(data.students[1].grades.length);
 			
-			text+="<div class='pic'><img class='circleImg' src="+data.students[i].pic+"></img></div>"+
-				"<div class='txt'><b>"+data.students[i].firstName+" "+data.students[i].lastName+"</b>"+
-				"<p>Email: "+data.students[i].email+"</p>"+
-				"<p>Company: "+data.students[i].company+"</p>"+
-				"<p>Skill: "+data.students[i].skill+"</p>"+
-				"<p>Average: "+avg+"%</p></div>";
+			text+="<table><tr><td width=200><div class='pic'><img class='circleImg'src="+data.students[i].pic+"></img></div></td>"+
+				"<td><div class='txt'><h1 class='name'>"+data.students[i].firstName+" "+data.students[i].lastName+"</h1>"+
+				"<p class='info'>Email: "+data.students[i].email+"</p>"+
+				"<p class='info'>Company: "+data.students[i].company+"</p>"+
+				"<p class='info'>Skill: "+data.students[i].skill+"</p>"+
+				"<p class='info'>Average: "+avg+"%</p></div><td></tr></table><p><hr><p>";
 				
 		}
 

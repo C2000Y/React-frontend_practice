@@ -6,13 +6,15 @@ body {
 }
 .outer{	
 	background-color: white;
-	width: 400px;
-	height: 400px;
+	width: 700px;
+	height: 600px;
 	position: relative;
 	top: 100px;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	border:1px solid;
+	border:1px solid #AFAFAF;
+	border-radius: 20px;
+	box-shadow: 0 2.5px 2px #AFAFAF;
 	
 }
 ::-webkit-scrollbar {
@@ -21,6 +23,7 @@ width: 12px;
 
 img{
     width: 150px;
+	margin-left: 15px;
 }
 .circleImg{
   border:1px solid;
@@ -30,3 +33,13 @@ img{
   height:150px;
 
 }
+
+.info{
+	margin-left: 25px;
+	color:#6F6F6F
+}
+
+.name{
+	text-transform: uppercase;
+}
+
