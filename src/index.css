@@ -6,7 +6,7 @@ body {
 }
 .outer{	
 	background-color: white;
-	width: 700px;
+	width: 825px;
 	height: 600px;
 	position: relative;
 	top: 100px;
@@ -17,6 +17,7 @@ body {
 	box-shadow: 0 2.5px 2px #AFAFAF;
 	
 }
+
 ::-webkit-scrollbar {
 width: 12px;
 }
@@ -36,10 +37,52 @@ img{
 
 .info{
 	margin-left: 25px;
-	color:#6F6F6F
+	color:#4F4F4F;
+	line-height:13px;
 }
 
 .name{
 	text-transform: uppercase;
 }
+
+.bar input[type=text] {
+  float: left;
+  width: 755px;
+  padding: 10px;
+  margin-top: 8px;
+  margin-left: 16px;
+  border: none;
+  font-size: 17px;
+}
+.add-tag-input​{
+	border:none;
+	width: 100px;
+	padding: 8px;
+	margin-top: 8px;
+	margin-left: -5px;
+	font-size: 14px;
+	
+}
+
+.tests{
+	color:#4F4F4F;
+	line-height:5px;
+	
+}
+
+.expand-btn{
+	width:70px;
+	vertical-align:top;
+	margin-left:0px;
+	margin-top:-50px;
+}
+
+.show{
+	height:150px;
+}
+
+.notshow{
+	height:00px;
+}
+
 
